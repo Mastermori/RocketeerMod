@@ -1,0 +1,7 @@
+name: "real_artillery"
+displayName: "[red]Real [gray]Artillery"
+author: "Mastermori"
+description: "Adds some real long range artillery"
+version: "0.1"
+minGameVersion: "104.1"
+dependencies: []

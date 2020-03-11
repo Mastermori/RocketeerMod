@@ -1,0 +1,46 @@
+{
+	name: Rocketeer
+	description: A high ranged ground to ground rocket based turret
+
+	type: ArtilleryTurret
+	category: turret
+	size: 3
+
+	health: 600
+	reload: 60
+	range: 440
+	inaccuracy: 10
+	shots: 3
+	spread: 3
+	rotatespeed: 5
+
+	research: ripple
+
+	maxAmmo: 20
+	ammo: {
+		graphite: {
+			type: ArtilleryBulletType
+			splashDamage: 20
+			splashDamageRadius: 56
+			ammoMultiplier: 4
+			reloadMultiplier: 1.2
+			speed: 6
+		}
+
+		thorium: {
+			type: ArtilleryBulletType
+			splashDamage: 35
+			splashDamageRadius: 40
+			ammoMultiplier: 2
+			speed: 8
+		}
+	}
+
+	requirements: [
+		copper/400
+		graphite/300
+		titanium/200
+		plastanium/150
+		surge-alloy/50
+	]
+}
